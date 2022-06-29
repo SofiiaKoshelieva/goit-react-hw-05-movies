@@ -1,4 +1,4 @@
-import ApiService from './ApiService';
+import ApiService from '../services/ApiService';
 import { useEffect, useState } from 'react';
 const apiService = new ApiService();
 export default function Review({ movieId }) {

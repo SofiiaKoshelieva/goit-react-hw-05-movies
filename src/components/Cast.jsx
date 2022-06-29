@@ -1,4 +1,4 @@
-import ApiService from './ApiService';
+import ApiService from '../services/ApiService';
 import { useEffect, useState } from 'react';
 import s from '../components/movies.module.css';
 const apiService = new ApiService();

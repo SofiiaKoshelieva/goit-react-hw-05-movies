@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import ApiService from './ApiService';
+import ApiService from '../services/ApiService';
 import { TrendingFilms } from './RenderFilms';
 const apiService = new ApiService();
 export default function HomePage() {

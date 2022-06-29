@@ -9,7 +9,7 @@ import { useLocation } from 'react-router-dom';
 
 import s from '../components/movies.module.css';
 
-import ApiService from './ApiService';
+import ApiService from '../services/ApiService';
 const apiService = new ApiService();
 const Review = lazy(() =>
   import('./Review.jsx' /*webpackChunkName: 'Review'*/)
