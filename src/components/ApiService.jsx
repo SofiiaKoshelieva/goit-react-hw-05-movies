@@ -25,7 +25,7 @@ export default class ApiService {
   }
   async fetchMoviesByName() {
     const fetchMovieByName = await axios.get(
-      `${this.BASE_URL}/3/search/movie/${this.key}&query=${this.searchQuery}`
+      `${this.BASE_URL}/3/search/movie${this.key}&query=${this.searchQuery}`
     );
     return fetchMovieByName;
   }
